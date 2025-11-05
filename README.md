@@ -78,12 +78,13 @@ New books can be added:
 
 <img width="1294" height="634" alt="image" src="https://github.com/user-attachments/assets/f38733a7-cea5-4594-a973-dd58fa23c580" />
 
+Book data can be updated:
+
+<img width="894" height="715" alt="image" src="https://github.com/user-attachments/assets/d6bd2969-fd5c-4579-b7d6-00bf7fbe86c0" />
 
 
-
-
-
-
-
-
-
+The application includes:
+- Security features such as JWT authentification, protected API endpoints, role-based access control, and SQL injection prevention.
+- Redis caching to help users open the app from other devices with saved additions to their booking cart, and persistent data across devices.
+- Stale-While-Revalidate(SWR) strategy for Frontend Fetching and Caching for a reactive and smooth UI with up-to-date data.
+- Applied CSRF Protection by generating and embedding a CSRF token in every form submission and verifying during the form request. 

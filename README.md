@@ -84,7 +84,7 @@ Book data can be updated:
 
 
 The application includes:
-- Security features such as JWT authentification, protected API endpoints, role-based access control, and SQL injection prevention.
+- Security features such as JWT authentication, protected API endpoints, role-based access control, and SQL injection prevention.
 - Redis caching to help users open the app from other devices with saved additions to their booking cart, and persistent data across devices.
 - Stale-While-Revalidate(SWR) strategy for Frontend Fetching and Caching for a reactive and smooth UI with up-to-date data.
 - Applied CSRF Protection by generating and embedding a CSRF token in every form submission and verifying during the form request. 

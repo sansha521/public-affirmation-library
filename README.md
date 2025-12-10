@@ -1,11 +1,14 @@
 # public-affirmation-library
 This is the repository to showcase a sample public library database application called Public Affirmation Library.  This project was done for completion of CS-GY 6083, Principles of Database Systems
-project
+project.
 
 
 # Project Specification
-- Backend Server: Django
-- Database: Postgres
+🔧 Dev Stack
+- Backend Server: Django, Python
+- Frontend: React, TypeScript, JavaScript, HTML/CSS
+- Database: PostgreSQL
+- Authentication: JWT-based auth flow
 
 # Running the webapp in development mode
 ## See the Readme in backend directory
